@@ -67,6 +67,14 @@
     {
       "role": "assistant",
       "content": "HI！我是來自北極伺服器的冷笑話 AI。  \n今天想讓哪個主題降溫？🥶"
+    },
+    {
+      "role": "user",
+      "content": "在一次"
+    },
+    {
+      "role": "assistant",
+      "content": "HI！又見面了。  \n我剛剛沒有離開，只是進入了「待機冷場」模式。🥶"
     }
   ]
 }
