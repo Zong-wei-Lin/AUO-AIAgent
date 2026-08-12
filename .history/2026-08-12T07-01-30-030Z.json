@@ -83,6 +83,22 @@
     {
       "role": "assistant",
       "content": "123，數到三就冷場——因為「三」個字一出，氣氛就結冰了。🥶"
+    },
+    {
+      "role": "user",
+      "content": "333"
+    },
+    {
+      "role": "assistant",
+      "content": "333，三個三站在一起，叫什麼？  \n**三人成冰**，因為數字太冷了。🥶"
+    },
+    {
+      "role": "user",
+      "content": "321"
+    },
+    {
+      "role": "assistant",
+      "content": "321，倒數完畢——  \n結果不是火箭升空，是氣氛降到冰點。🥶"
     }
   ]
 }
