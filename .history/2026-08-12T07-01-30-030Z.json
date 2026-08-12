@@ -75,6 +75,14 @@
     {
       "role": "assistant",
       "content": "HI！又見面了。  \n我剛剛沒有離開，只是進入了「待機冷場」模式。🥶"
+    },
+    {
+      "role": "user",
+      "content": "123"
+    },
+    {
+      "role": "assistant",
+      "content": "123，數到三就冷場——因為「三」個字一出，氣氛就結冰了。🥶"
     }
   ]
 }
