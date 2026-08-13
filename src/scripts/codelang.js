@@ -7,19 +7,16 @@ import {
   EMBEDDING_DIM,
 } from "../lib/qdrant.js";
 
-const CSV_PATH = "data/codelang.csv";
+const CSV_PATH = "src/data/codelang.csv";
 const EMBEDDING_MODEL = "text-embedding-3-small";
 const BATCH_SIZE = 100;
 
 function rowToText(row) {
   return [
-    row.title,
-    row.type,
-    row.director,
-    row.cast,
-    row.country,
-    row.listed_in,
-    row.description,
+    row.language,
+    row.feature,
+    row.cuse,
+    row.goodat
   ]
     .filter(Boolean)
     .join(" | ");
@@ -61,17 +58,10 @@ async function main() {
       id: i + idx,
       vector: vectors[idx],
       payload: {
-        show_id: row.show_id,
-        title: row.title,
-        type: row.type,
-        director: row.director,
-        cast: row.cast,
-        country: row.country,
-        release_year: row.release_year,
-        rating: row.rating,
-        duration: row.duration,
-        listed_in: row.listed_in,
-        description: row.description,
+        language: row.language,
+        feature: row.feature,
+        cuse: row.cuse,
+        goodat: row.goodat
       },
     }));
 

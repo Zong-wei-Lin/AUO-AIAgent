@@ -18,3 +18,10 @@ node src/main.js
 node src/function_call.js
 ```
 ![alt text](./tmp_img/image-3.png)
+
+
+## 作業 3：建立迷你知識庫
+```bash
+node src/main_code.js
+```
+![alt text](./tmp_img/image-4.png)
