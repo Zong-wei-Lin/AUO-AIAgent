@@ -29,6 +29,17 @@ node src/main_code.js
 
 ## 作業 4：整合天氣與時間⼯具
 ```bash
-node node src/function_call_4.js
+node  src/function_call_4.js
 ```
 ![alt text](./tmp_img/image-5.png)
+
+
+
+## 作業 5：向量相似度實驗
+```bash
+node src/embeddings_test.js
+```
+
+![alt text](./tmp_img/image-6.png)
+![alt text](./tmp_img/image-7.png)
+![alt text](./tmp_img/image-8.png)
