@@ -25,3 +25,10 @@ node src/function_call.js
 node src/main_code.js
 ```
 ![alt text](image-4.png)
+
+
+## 作業 4：整合天氣與時間⼯具
+```bash
+node node src/function_call_4.js
+```
+![alt text](image-5.png)
